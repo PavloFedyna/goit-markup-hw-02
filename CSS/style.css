@@ -110,6 +110,7 @@ body {
 /* ____________BENEFITS_____________ */
 
 .benefits-title {
+  font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
 }
@@ -175,6 +176,11 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 
+.footer-address:hover,
+.footer-address:focus{
+  color: var(--accent-color);
+}
+
 /* _________________PORTFOLIO__________ */
 
 .portfolio-btn:hover,
@@ -192,6 +198,10 @@ body {
     text-align: center;
     color: #212121;
     cursor: pointer;
+}
+
+.everyone{
+  background-color: var(--accent-color);
 }
 
 /* __________________POJECTS_____________ */
